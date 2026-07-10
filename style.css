@@ -1,0 +1,8 @@
+
+body{margin:0;display:flex;justify-content:center;align-items:center;min-height:100vh;background:linear-gradient(135deg,#4b001f,#8b1e3f,#c89b3c);font-family:Arial;color:#fff}
+.card{background:rgba(255,255,255,.12);padding:30px;border-radius:20px;text-align:center;width:90%;max-width:800px}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.box{background:rgba(255,255,255,.15);padding:15px;border-radius:12px}
+.box div{font-size:2rem;font-weight:bold}
+.heart{font-size:60px}
+@media(max-width:700px){.grid{grid-template-columns:repeat(2,1fr)}}
